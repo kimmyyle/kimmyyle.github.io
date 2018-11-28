@@ -1,0 +1,85 @@
+body {
+  background-color: #ffffff;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-width: 600px;
+}
+
+h1 {
+  font-size: 20px;
+  float: left;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.Nav-Bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#Title {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.Links {
+  float: right;
+  padding: 20px;
+  text-align: center;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+a {
+  padding: 10px;
+  text-decoration-line: none;
+  color: #707070;
+}
+
+a:hover {
+  color: black;
+}
+
+.Links:hover {
+  cursor: pointer;
+}
+
+#Hero {
+  width: 135%;
+  opacity: .80;
+  position: fixed;
+  top: -200px;
+  left: -10px;
+}
+
+#Hero-Caption {
+  position: fixed;
+  top: 29%;
+  left: 30%;
+  font-weight: bold;
+  color: black;
+  font-size: 34px;
+  text-shadow: 3px 2px 5px #999999;
+  text-align: center;
+}
+
+#button {
+  position: fixed;
+  top: 53%;
+  left: 39%;
+  width: 14%;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  z-index: 4;
+}
+
+#button:hover {
+  cursor: pointer;
+}
