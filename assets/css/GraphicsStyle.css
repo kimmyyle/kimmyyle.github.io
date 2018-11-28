@@ -1,0 +1,114 @@
+body {
+  background-color: #ffffff;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-width: 600px;
+}
+
+h1 {
+  font-size: 20px;
+  float: left;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.Nav-Bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#Title {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.Links {
+  float: right;
+  padding: 20px;
+  text-align: center;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+a {
+  padding: 10px;
+  text-decoration-line: none;
+  color: #707070;
+}
+
+a:hover {
+  color: black;
+}
+
+.Links:hover {
+  cursor: pointer;
+}
+
+#Page-Title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font: black;
+}
+
+h1.Page-Title {
+  position: absolute;
+  top: -115px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+}
+
+.Photo-Albums-Grid {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+#Photo-Album-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 125px;
+  padding-top: 230px;
+}
+
+#Photo-Album-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 125px;
+  padding-top: 140px;
+}
+
+.Album {
+  height: 200px;
+  width: 300px;
+  box-shadow: 8px 8px 16px #999999;
+}
+
+.Album-img {
+  height: 100%;
+  width: 100%;
+}
+
+.Album-img:hover {
+  cursor: pointer;
+  opacity: .50;
+}
+
+.Album-Title {
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  font-size: 16px;
+}

@@ -1,0 +1,114 @@
+body {
+  background-color: #ffffff;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  min-width: 600px;
+}
+
+h1 {
+  font-size: 20px;
+  float: left;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.Nav-Bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: -10px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+#Title {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.Links {
+  float: right;
+  padding: 20px;
+  text-align: center;
+  padding-right: 40px;
+  font-weight: bold;
+}
+
+a {
+  padding: 10px;
+  text-decoration-line: none;
+  color: #707070;
+}
+
+a:hover {
+  color: black;
+}
+
+.Links:hover {
+  cursor: pointer;
+}
+
+#Page-Title {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  font: black;
+}
+
+h1.Page-Title {
+  position: absolute;
+  top: -115px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+}
+
+#About-Caption-Tag {
+  position: fixed;
+  top: 17%;
+  left: 19%;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  max-width: 400px;
+  font-size: 12px;
+}
+
+#About-Caption {
+  position: fixed;
+  top: 25%;
+  left: 15%;
+  text-align: left;
+  color: black;
+  max-width: 400px;
+  line-height: 32px;
+  font-size: 12px;
+}
+
+#About-Caption-Contact-Info {
+  position: fixed;
+  top: 46%;
+  left: 24%;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  max-width: 400px;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+#gradpic {
+  position: fixed;
+  top: 20%;
+  left: 56.5%;
+  height: 75%;
+  box-shadow: 8px 8px 16px #999999;
+}
+
+
+
+
+
+
