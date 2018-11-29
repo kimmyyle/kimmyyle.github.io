@@ -3,6 +3,8 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
   min-width: 600px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
@@ -21,6 +23,7 @@ h1 {
   width: 100%;
   background-color: white;
   z-index: 1;
+  max-width: 1440px;
 }
 
 #Title {
@@ -46,31 +49,53 @@ a:hover {
   color: black;
 }
 
+a.active {
+  color: black;
+}
+
 .Links:hover {
   cursor: pointer;
 }
 
 #Page-Title {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  font: black;
+  color: black;
+  margin-bottom: 30px;
 }
 
 h1.Page-Title {
-  position: absolute;
-  top: -115px;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 32px;
+  color: black;
+}
+
+.Resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.Resume-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -40px;
+  max-width: 1440px;
+}
+
+#Photo-Album-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1440px;
+  margin-top: -40px;
 }
 
 #Resume {
-  position: absolute;
-  top: 19%;
-  left: 50%;
-  transform: translateX(-50%);
   width: 50%;
   box-shadow: 8px 8px 16px #999999;
   margin-bottom: 100px;
 }
+

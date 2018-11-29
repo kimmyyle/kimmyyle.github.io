@@ -1,8 +1,9 @@
 body {
   background-color: #ffffff;
-  color: white;
   font-family: 'Roboto', sans-serif;
   min-width: 600px;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
@@ -46,65 +47,76 @@ a:hover {
   color: black;
 }
 
+a.active {
+  color: black;
+}
+
 .Links:hover {
   cursor: pointer;
 }
 
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
 #Page-Title {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  font: black;
+  color: black;
 }
 
 h1.Page-Title {
-  position: absolute;
-  top: -115px;
-  left: 50%;
-  transform: translateX(-50%);
   font-size: 32px;
+  color: black;
+}
+
+.About-Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.About-Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  margin: 40px;
 }
 
 #About-Caption-Tag {
-  position: fixed;
-  top: 17%;
-  left: 19%;
-  text-align: left;
-  color: black;
+  text-align: center;
   font-weight: bold;
-  max-width: 400px;
-  font-size: 12px;
+  line-height: 16px;
 }
 
 #About-Caption {
-  position: fixed;
-  top: 25%;
-  left: 15%;
-  text-align: left;
-  color: black;
-  max-width: 400px;
-  line-height: 32px;
-  font-size: 12px;
+  text-align: center;
 }
 
 #About-Caption-Contact-Info {
-  position: fixed;
-  top: 46%;
-  left: 24%;
-  text-align: left;
-  color: black;
+  text-align: center;
   font-weight: bold;
-  max-width: 400px;
-  line-height: 14px;
-  font-size: 12px;
+  line-height: 16px;
 }
 
-#gradpic {
-  position: fixed;
-  top: 20%;
-  left: 56.5%;
-  height: 75%;
+#About-Photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font: black;
+  height: 50%;
+  width: 50%;
   box-shadow: 8px 8px 16px #999999;
+  margin-left: 80px;
 }
 
 
