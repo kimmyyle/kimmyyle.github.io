@@ -113,10 +113,11 @@ h1.Page-Title {
   justify-content: space-around;
   align-items: center;
   font: black;
-  height: 50%;
-  width: 50%;
+  height: 47%;
+  width: 47%;
   box-shadow: 8px 8px 16px #999999;
   margin-left: 80px;
+  margin-bottom: 50px;
 }
 
 
